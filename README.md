@@ -5,7 +5,7 @@ Self-contained portfolio site for Sam (Amirsaman) Mahdavian, PhD.
 ## Files
 - `index.html` — the entire site (hero video and diagrams are embedded; the résumé button links to the PDF below)
 - `Sam_Mahdavian_Resume.pdf` — downloadable résumé (AI Solutions version), referenced by the "Download résumé" buttons
-- `og-image.png` — social/link-preview image (referenced as https://sammahdavian.ai/og-image.png)
+- `og-image (2).png` — social/link-preview image (referenced as https://sammahdavian.ai/og-image%20(2).png)
 - `CNAME` — custom domain for GitHub Pages (sammahdavian.ai)
 
 ## Deploy (GitHub Pages)
