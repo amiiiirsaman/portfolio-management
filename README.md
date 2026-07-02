@@ -16,3 +16,15 @@ Self-contained portfolio site for Sam (Amirsaman) Mahdavian, PhD.
 5. Enable "Enforce HTTPS".
 
 To update the site, edit `index.html`. To update the résumé, replace `Sam_Mahdavian_Resume.pdf` (keep the filename).
+
+## Business Problem
+This project addresses a real operational need with measurable outcomes and implementation clarity.
+
+## Architecture
+The implementation organizes workflow logic, data flow, and execution steps to support reliable delivery in practice.
+
+## Technology Stack
+Refer to repository dependencies and source structure for framework and runtime details.
+
+## Outcomes
+AI-assisted portfolio management workspace for research, monitoring, and decision-support workflows.
