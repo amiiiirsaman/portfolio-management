@@ -43,3 +43,11 @@ Known cosmetic: at a 420px headless window the hero text clips on the right; ide
 
 ## Files changed
 `index.html`, `Sam_Mahdavian_Resume.pdf` (updated alias), `Sam_Mahdavian_Resume_20260905.pdf` (new), `resume/build_resume.py`, `resume/export_pdf.ps1`, `resume/Sam_Mahdavian_Resume.docx` (new), `.gitignore`, `specs/steering/project-map.md`, `specs/portfolio-refresh-2026-09/{requirements,resolution}.md`. Not committed.
+
+## Round 2 (2026-09-05, evening) — page-one curation, generic names, GitHub cleanup
+- Generic names: SpendSphere → "Spend Intelligence Platform · AP, MRO & Payer Vendor Analytics"; Doczy AARIA → "Conversational Contract Analytics · Text-to-SQL Agent"; ReImagine → "Provider Network Optimization · Geospatial Network AI"; PolicyPulse removed from copy; TailSpend → "Supplier Intelligence Engine · Aviation Spend"; Invoice Transcription → "Invoice Straight-Through Processor". Doczy kept (public AWS blog + patent). Resume bullet renamed and PDF regenerated under the same dated filename.
+- Featured ten: Doczy · Brane Mobility · Brane AI · Claims Testing · Policy Audit · Supplier Intelligence · Invoice Straight-Through · Advanced Pricing · PADU · Credit Risk. Deck Builder, spend platform, and Fraud (Demo/POC) moved off page one; all remain in Work.
+- Featured cards are now `div[role=button]` with keyboard support and render the entry's first link (brane-mobility.app, AWS blog, Code) or the private badge. First KPI reordered to the dollar/scale figure on Brane Mobility, Invoice, Pricing (values unchanged).
+- Hero: fourth lens "Operator / Investor". About: "Founder" row in At a glance. Featured subtitle rewritten.
+- GitHub: profile README updated (40+ systems, 150+ agents, 50+ skills, 460 citations, h-index 10, Brane line, internal product name removed). Five private repos given descriptions; zero repos without one. Two forks with own commits made private (re-archived). **The 19 zero-commit forks could not be deleted: the gh token lacks the `delete_repo` scope, which needs an interactive `gh auth refresh -h github.com -s delete_repo`.** Pinned repos cannot be changed via API; manual swap suggested (customer-service demo → advanced-pricing-engine).
+- Verified: JS parses, all ten featured keys resolve, banned-name gate clean, screenshots of Home/About/phone width.
