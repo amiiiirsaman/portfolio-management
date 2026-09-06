@@ -54,3 +54,6 @@ Known cosmetic: at a 420px headless window the hero text clips on the right; ide
 
 ## Round 3 (2026-09-05, late) — light mode default
 - Head bootstrap now applies dark only when `localStorage.theme === "dark"`; otherwise light. Toggle still persists. Button default glyph is the moon.
+
+## Round 4 (2026-09-05, late) — Claims Testing entry describes the engine, not one contract
+- Replaced the one-contract figures (394 tests / 102 rules / 213,420 lines) with engine figures supplied by Sam: 37 registered pipeline steps behind one command, 68 scripts (~76.8K lines), 90 gates / 91 checks / 17 gate modules, 1,647 automated tests in 150 files, 3 verification wheels + row-chain walk, 28 packaged skills, 33 configuration registers, 15 dimensions + 2 checks, 12 adversarial reader lenses. Ten-stage approach written from his stage list. Name: "AI Claims Testing Engine · Contract-to-Test Automation". Resume bullet rewritten to match; PDF regenerated, still two pages.
