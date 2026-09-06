@@ -24,7 +24,7 @@
 - The `--sig` CSS variable holds a ~10 KB base64 PNG on one line; strip it before grepping/diffing text.
 
 **Update 2026-09-05 (portfolio-refresh-2026-09)**
-- Theme: dark is now the default; a `<script>` in `<head>` reads `localStorage.theme` before CSS; `setTheme()` persists.
+- Theme: light is the default (dark 2026-09-05 daytime only, reverted same evening); a `<script>` in `<head>` reads `localStorage.theme` before CSS; `setTheme()` persists.
 - Project objects may carry `priv:1` → "private · walkthrough on request" badge (card) + note (modal). `FEATURED` has ten keys.
 - Resume runbook: `python resume/build_resume.py` (python-docx, text lives in the script) then `powershell -ExecutionPolicy Bypass -File resume/export_pdf.ps1` (Word COM; LibreOffice is NOT installed). Copy the PDF to `Sam_Mahdavian_Resume_<YYYYMMDD>.pdf` and update the 5 hrefs in `index.html`. Two-page check: `pypdf` page count.
 - Headless screenshots: `msedge --headless=new --screenshot=... http://127.0.0.1:<port>/#view-skills` after `python -m http.server <port> --directory D:/Portfolio` (do not append `/` after `index.html`).

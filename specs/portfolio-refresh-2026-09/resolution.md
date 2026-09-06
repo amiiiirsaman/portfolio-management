@@ -51,3 +51,6 @@ Known cosmetic: at a 420px headless window the hero text clips on the right; ide
 - Hero: fourth lens "Operator / Investor". About: "Founder" row in At a glance. Featured subtitle rewritten.
 - GitHub: profile README updated (40+ systems, 150+ agents, 50+ skills, 460 citations, h-index 10, Brane line, internal product name removed). Five private repos given descriptions; zero repos without one. Two forks with own commits made private (re-archived). **The 19 zero-commit forks could not be deleted: the gh token lacks the `delete_repo` scope, which needs an interactive `gh auth refresh -h github.com -s delete_repo`.** Pinned repos cannot be changed via API; manual swap suggested (customer-service demo → advanced-pricing-engine).
 - Verified: JS parses, all ten featured keys resolve, banned-name gate clean, screenshots of Home/About/phone width.
+
+## Round 3 (2026-09-05, late) — light mode default
+- Head bootstrap now applies dark only when `localStorage.theme === "dark"`; otherwise light. Toggle still persists. Button default glyph is the moon.
